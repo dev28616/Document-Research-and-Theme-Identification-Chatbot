@@ -106,7 +106,6 @@ streamlit run streamlit_app.py
 
 A sample walkthrough is available in the `/demo/` folder.
 
-
 ## 📩 Contact
 
 **Submitted to:** Wasserstoff — Gen-AI Internship Task  
