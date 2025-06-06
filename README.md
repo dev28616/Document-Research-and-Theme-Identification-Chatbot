@@ -106,18 +106,6 @@ streamlit run streamlit_app.py
 
 A sample walkthrough is available in the `/demo/` folder.
 
----
-
-## 🚀 Deployment Options
-
-You can deploy this on any free platform:
-
-- [Hugging Face Spaces](https://huggingface.co/spaces)
-- [Render](https://render.com)
-- [Railway](https://railway.app)
-- [Replit](https://replit.com)
-
----
 
 ## 📩 Contact
 
