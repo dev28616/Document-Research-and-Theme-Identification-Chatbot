@@ -1,5 +1,4 @@
-# 📁 File: test_ocr.py
-# Description: Test script to verify Tesseract OCR is working on a sample image
+
 
 from PIL import Image
 import pytesseract

@@ -17,5 +17,5 @@ indexer.split_and_embed(text, metadata={"source": "test-doc"})
 
 results = indexer.search("SEBI fine", top_k=3)
 print("\n🔍 Top Results for 'SEBI fine':\n")
-for chunk, meta in results:
-    print(f"→ {chunk}\n--- from {meta['source']}\n")
+# for chunk, meta in results:
+#     print(f"→ {chunk}\n--- from {meta['source']}\n")

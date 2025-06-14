@@ -21,20 +21,20 @@ all_files = list(data_dir.glob("*"))
 
 for file_path in all_files:
     try:
-        print(f"\n📄 Processing: {file_path.name}")
+        print(f"\n Processing: {file_path.name}")
         text = extract_text(str(file_path))
 
         if not text.strip():
-            print(f"⚠️ Skipped {file_path.name}: No text extracted.")
+            print(f" Skipped {file_path.name}: No text extracted.")
             continue
 
         indexer.split_and_embed(text, metadata={"filename": file_path.name})
-        print(f"✅ Indexed: {file_path.name}")
+        print(f" Indexed: {file_path.name}")
 
     except Exception as e:
-        print(f"❌ Error with {file_path.name}: {e}")
+        print(f" Error with {file_path.name}: {e}")
 
 # Save final index
 indexer.save("C:/Users/monda/OneDrive/Desktop/ChatBot_Theme_Identifier/backend/app/services/faiss_index.pkl")
-print("\n🧠 All valid documents indexed and saved.")
+print("\n All valid documents indexed and saved.")
 
