@@ -9,7 +9,6 @@ This is a full-stack Gen-AI powered chatbot that:
 - Synthesizes themes across all retrieved content
 - Presents results in a simple web UI (Streamlit)
 
-Developed as part of the Wasserstoff Gen-AI Internship Task.
 
 ---
 
